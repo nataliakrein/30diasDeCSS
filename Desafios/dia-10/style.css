@@ -1,0 +1,29 @@
+body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #a01a58;
+}
+h1
+{
+    font-size: 50px;
+    font-family: "arial black";
+    text-transform: uppercase;
+    color: #feeafa;
+}
+span::before
+{
+    content: '';
+    animation: anim 5s infinite;
+}
+
+@keyframes anim 
+{
+    0% {content: '💻'}
+    25% {content: '📚'}
+    50%{content: '🎶';}
+    75%{content: '📺';}
+    100%{content: '🎮';}
+}
