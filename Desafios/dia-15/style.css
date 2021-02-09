@@ -1,0 +1,32 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(image.jpg);
+    overflow: hidden;
+}
+h1
+{
+    text-align: center;
+    color: #F5F5F5;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 90px;
+    line-height: 95px;
+    letter-spacing: 15px;
+    text-shadow: 0 3px 1px #FF595E,
+                 0 6px 1px #FFCA3A,
+                 0 9px 1px #8AC926,
+                 0 12px 1px #1982C4,
+                 0 15px 1px #6A4C93;
+    animation: float 3s linear infinite;
+    animation-direction: alternate;
+}
+
+@keyframes float 
+{
+    from {transform: rotate(5deg);}
+
+    to {transform: rotate(-5deg);}
+}
