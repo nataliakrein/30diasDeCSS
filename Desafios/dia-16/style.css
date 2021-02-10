@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #bd3283;
+}
+
+.container {
+    border: 5px solid #832161;
+    border-radius: 20px;
+    width: 16rem;
+    padding: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    background: #f1aa0f;
+    text-transform: uppercase;
+    position: relative;
+    transition: all 1s;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+
+}
+
+.container::before {
+    content: 'DIA 16';
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background-color: #bd3283;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transform: translateY(-100%);
+    transition: all 1s;
+}
+
+.container:hover::before {
+    transform: translateY(0);
+}
