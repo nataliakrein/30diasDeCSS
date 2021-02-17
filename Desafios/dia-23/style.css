@@ -1,0 +1,37 @@
+*{
+    font-family: 'Lexend Mega', sans-serif;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    background-color: #080E12;
+}
+
+a {
+	text-decoration: none;
+	color: #d66ba0;
+	font-size: 40px;
+	border: 3px solid #d66ba0;
+	padding: 40px 80px;
+	transition: all 0.3s
+}
+
+a:hover {
+	border: 3px dashed white;
+	color: white;
+    animation: shake 0.3s linear 1;
+    border-radius: 20px;
+    background: #d66ba0;
+}
+
+@keyframes shake {
+    33% { transform: rotate(20deg); 
+        transform: scale(0.8);
+}
+	66% { transform: rotate(-20deg); }
+
+	100% { transform: rotate(10deg); }
+}
