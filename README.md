@@ -17,3 +17,4 @@
 <ul>
   <li><a href="https://nataliakrein.github.io/30diasDeCSS/">Clique aqui</a> e confira 🤩💖</li>
 </ul>
+<h6>Minha inspiração para criar o indice: <a href="https://github.com/IzabellaRibeiro/30diasDeCSS">aqui</a><h6>
