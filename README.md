@@ -1,5 +1,4 @@
-<img src="https://user-images.githubusercontent.com/75141156/108601483-97ce8d80-737b-11eb-8451-9f9ac94c60fc.png">
-
+![#30diasdecss](https://user-images.githubusercontent.com/75141156/108601483-97ce8d80-737b-11eb-8451-9f9ac94c60fc.png)
 # 30 dias de CSS 🚀👩🏼‍💻
 
 ## ✨ Sobre o desafio:
