@@ -1,4 +1,4 @@
-<a href="https://user-images.githubusercontent.com/75141156/108601483-97ce8d80-737b-11eb-8451-9f9ac94c60fc.png"></a>1156/108601483-97ce8d80-737b-11eb-8451-9f9ac94c60fc.png)
+<a href="https://user-images.githubusercontent.com/75141156/108601483-97ce8d80-737b-11eb-8451-9f9ac94c60fc.png"></a>
 
 # 30 dias de CSS 🚀👩🏼‍💻
 
