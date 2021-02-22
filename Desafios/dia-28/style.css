@@ -1,0 +1,31 @@
+body 
+{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Source Code Pro', serif;
+	animation: bgchange 12s infinite;
+}
+
+h1 
+{
+	font-size: 70px;
+	text-align: center;
+	text-transform: capitalize; /*primeiras letras ficam em maiúscula*/
+	color: white;
+}
+
+@keyframes bgchange {
+	0% { background-color: #d62557 }
+
+	20% { background-color: #b5347b }
+
+	40% { background-color: #86468c }
+
+	60% { background-color: #564f88 }
+
+	80% { background-color: #344e74 }
+
+	100% { background-color: #2f4858 }
+}
